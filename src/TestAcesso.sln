@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAcesso.Webapi", "TestAcesso.Webapi\TestAcesso.Webapi.csproj", "{52C46FB2-6BCB-421F-A1C3-847E5D3C1065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAcesso.Tests", "TestAcesso.Tests\TestAcesso.Tests.csproj", "{67280E9E-2FBF-4FA1-A031-19C1CBCEBC8C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7DBD0AB1-05DC-4AB4-8CA7-D0CF32B72D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAcesso.Domain", "TestAcesso.Domain\TestAcesso.Domain.csproj", "{346476CA-4848-4A31-A1BF-3BAF4C7E9B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAcesso.Application", "TestAcesso.Application\TestAcesso.Application.csproj", "{B9C1D6DE-B159-488E-8537-F7A4F139CCA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAcesso.Infrastructure", "TestAcesso.Infrastructure\TestAcesso.Infrastructure.csproj", "{40B148C4-7E3E-4042-850F-76B52AF317D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52C46FB2-6BCB-421F-A1C3-847E5D3C1065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C46FB2-6BCB-421F-A1C3-847E5D3C1065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C46FB2-6BCB-421F-A1C3-847E5D3C1065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C46FB2-6BCB-421F-A1C3-847E5D3C1065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67280E9E-2FBF-4FA1-A031-19C1CBCEBC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67280E9E-2FBF-4FA1-A031-19C1CBCEBC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67280E9E-2FBF-4FA1-A031-19C1CBCEBC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67280E9E-2FBF-4FA1-A031-19C1CBCEBC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD0AB1-05DC-4AB4-8CA7-D0CF32B72D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD0AB1-05DC-4AB4-8CA7-D0CF32B72D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD0AB1-05DC-4AB4-8CA7-D0CF32B72D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD0AB1-05DC-4AB4-8CA7-D0CF32B72D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346476CA-4848-4A31-A1BF-3BAF4C7E9B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346476CA-4848-4A31-A1BF-3BAF4C7E9B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346476CA-4848-4A31-A1BF-3BAF4C7E9B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346476CA-4848-4A31-A1BF-3BAF4C7E9B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C1D6DE-B159-488E-8537-F7A4F139CCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C1D6DE-B159-488E-8537-F7A4F139CCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C1D6DE-B159-488E-8537-F7A4F139CCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C1D6DE-B159-488E-8537-F7A4F139CCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B148C4-7E3E-4042-850F-76B52AF317D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B148C4-7E3E-4042-850F-76B52AF317D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B148C4-7E3E-4042-850F-76B52AF317D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B148C4-7E3E-4042-850F-76B52AF317D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {201B28F4-AD23-456F-B1E2-9C197CF0E8B7}
+	EndGlobalSection
+EndGlobal

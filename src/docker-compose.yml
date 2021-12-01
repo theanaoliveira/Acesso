@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  testacesso-webapi:
+    image: ${DOCKER_REGISTRY-}testacesso-webapi
+    build:
+      context: .
+      dockerfile: TestAcesso.Webapi/Dockerfile
+    networks:
+      - testacesso-network
+
+networks:
+  testacesso-network:
