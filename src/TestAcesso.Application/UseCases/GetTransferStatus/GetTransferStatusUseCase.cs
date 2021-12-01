@@ -24,6 +24,7 @@ namespace TestAcesso.Application.UseCases.GetTransferStatus
         {
             try
             {
+                request.AddProcessLog($"Getting transfer: {request.TransferId} status");
                 request.AccountTransfer = accountTransferRepository.Get(w => w.Id.Equals(request.TransferId));
 
                 if (request.AccountTransfer is null)

@@ -19,7 +19,7 @@ namespace TestAcesso.Application.UseCases.SendTransfer.RequestHandlers
             {
                 var message = $"Domain is invalid: {string.Join(',', request.AccountTransfer.ValidationResult.Errors.Select(s => s.ErrorMessage).ToArray())}";
 
-                request.AddProcessLog(message);
+                request.AddErrorLog(message);
                 request.HasError = true;
                 request.ErrorMessage = message;
 
