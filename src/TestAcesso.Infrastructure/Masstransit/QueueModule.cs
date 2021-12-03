@@ -56,6 +56,7 @@ namespace TestAcesso.Infrastructure.Masstransit
 
                     cfg.UseMessageRetry(r =>
                     {
+                        r.Handle<ApplicationException>();
                         r.Interval(limitRetry, TimeSpan.FromSeconds(30));
                     });
 

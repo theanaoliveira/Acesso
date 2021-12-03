@@ -20,9 +20,6 @@ namespace TestAcesso.Infrastructure.Services.Calls
         {
             var url = Environment.GetEnvironmentVariable("ACCOUNT_URL_BASE");
             var request = new RestRequest($"/api/Account/{accountNumber}", Method.GET);
-
-            request.AddParameter("accountNumber", accountNumber, ParameterType.QueryString);
-
             var response = Execute<Entities.Account>(url, request);
 
             return mapper.Map<Account>(response);
