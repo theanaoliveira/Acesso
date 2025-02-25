@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Executar Validação de Governança
-        uses: meu-usuario/api-governance-action@main  # Repositório onde a Action está hospedada
+        uses: theanaoliveira/api-governance-action@main  # Repositório onde a Action está hospedada
         with:
           project-path: "src/TestAcesso.Webapi"
