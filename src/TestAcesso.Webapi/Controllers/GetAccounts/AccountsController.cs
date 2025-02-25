@@ -18,8 +18,8 @@ namespace TestAcesso.Webapi.Controllers.GetAccounts
         }
 
         [HttpGet]
-        [ProducesResponseType(typeof(ProblemDetails), 400)]
-        [ProducesResponseType(typeof(AccountsResponse), 200)]
+        // [ProducesResponseType(typeof(ProblemDetails), 400)]
+        // [ProducesResponseType(typeof(AccountsResponse), 200)]
         [Route("/list-accounts")]
         public IActionResult GetAccounts()
         {
