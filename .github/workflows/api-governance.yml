@@ -1,0 +1,15 @@
+name: "API Governance"
+
+on: pull_request  # Executa sempre que alguém abrir um PR
+
+jobs:
+  validate-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Executar Validação de Governança
+        uses: meu-usuario/api-governance-action@main  # Repositório onde a Action está hospedada
+        with:
+          project-path: "src/TestAcesso.Webapi"
