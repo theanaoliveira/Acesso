@@ -4,7 +4,7 @@ using TestAcesso.Application.UseCases.GetAccounts;
 
 namespace TestAcesso.Webapi.Controllers.GetAccounts
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase
     {
